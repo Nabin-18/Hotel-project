@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* display: flex; */
+  background-color: lightgray;
+  height: fit-content;
+  width: 50%;
+  margin: auto;
+  border: 2px solid red;
+  border-radius: 12px;
+}
+.reg {
+  display: flex;
+  height: 40px;
+  background-color: lightgray;
+  width: 100%;
+  justify-content: center;
+  border-radius: 12px;
+}
+h1 {
+  padding: 8px;
+  color: rgb(223, 30, 30);
+  font-family: cursive;
+  font-weight: bolder;
+  /* border-radius: 12px; */
+  /* text-transform: uppercase; */
+  /* font-size: 1rem; */
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+label {
+  font-weight: bold;
+  text-align: center;
+}
+input {
+  height: 40px;
+  width: 80%;
+  border: none;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+::placeholder {
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+p {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.button{
+  padding: 12px 0px;
+}
+button {
+  display: flex;
+  margin: auto;
+   padding: 8px 24px;
+   /* font-size: 0.8rem; */
+   color: white;
+   background-color:red;
+   border: transparent;
+   border-radius: 12px;
+   cursor: pointer;
+ 
+}
+.terms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: auto;
+  /* background-color: antiquewhite; */
+}
+.terms input{
+  
+  height: 16px;
+  width: 16px;
+}
+.terms  p{
+  font-size: 1rem;
+  font-weight: bold;
+}
+span{
+  color: green;
+}
+
+button:hover{
+  background-color: green;
+}
+@media screen and (max-width: 720px) {
+ h1{
+  font-size: 1rem;
+ }
+}
